@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+.container {
+    text-align: center;
+}
+
+.link-github {
+    cursor: pointer;
+    width: 150px;
+    height: 90px;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #000;
+    margin: 0;
+    overflow: hidden;
+}
+
+.estrela {
+    width: 3px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 100%;
+    /* Adiciona um arredondamento */
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
